@@ -7,9 +7,9 @@ const daseFolderWay = path.join(__dirname, 'files');
 fs.mkdir(newFolderWay, {recursive: true}, err => {
     if(err) throw err; 
     console.log('Folder create!');
- });
+});
 
- fs.readdir(daseFolderWay, (err, files) => {
+fs.readdir(daseFolderWay, (err, files) => {
     if(err) throw err;
 
     files.forEach(file => {
