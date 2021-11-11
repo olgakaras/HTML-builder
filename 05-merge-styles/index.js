@@ -22,3 +22,6 @@ fs.readdir(styleFolderWay, { withFileTypes: true }, (err, files) => {
         }
     });
 });
+
+
+

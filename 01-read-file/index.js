@@ -7,4 +7,3 @@ const readText = fs.createReadStream(fileWay, 'utf-8');
 readText.on( 'data', function(chunk) {
     console.log(chunk);
 })
-
